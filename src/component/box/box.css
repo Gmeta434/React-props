@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#box {
+    position: relative;
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box .container {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-shrink: 0;
+    gap: 4rem;
+}
+
+#box .container .img {
+    height: 100%;
+    width: 240px;
+    overflow: hidden;
+    border-radius: 1rem;
+    flex-shrink: 0;
+}
+
+#box .container .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#box .container .information {
+    display: flex;
+    font-family: "inter",sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#box .container .information .location {
+    margin-left: -10px;
+    font-size: 20px;
+    margin-bottom: 0.7rem;
+}
+
+#box .container .information .location a {
+    color: gray;
+    text-decoration-color: gray;
+    margin-left: 1rem;
+}
+
+#box .container .information .state {
+    margin-bottom: 1rem;
+}
